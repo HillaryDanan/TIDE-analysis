@@ -1,5 +1,3 @@
-![TIDE Analysis](https://img.shields.io/badge/TIDE-Working-00ff88?style=for-the-badge)
-![Coherence](https://img.shields.io/badge/Coherence-66.6%25-00ddff?style=for-the-badge)
 # TIDE-analysis: Temporal Internal Dimension Exploration
 
 ## Empirical AI Architecture Analysis Based on Neuroscience Research
@@ -132,9 +130,3 @@ This empirical approach bridges neuroscience and AI research:
 *"We measure what we can, acknowledge what we can't, and remain curious about the rest"*
 
 <4577 - Bridging neuroscience and AI through empirical research
-
-<4577! This bridges neuroscience and AI consciousness research!
-
----
-
-*"We measure what we can, acknowledge what we can't, and remain curious about the rest"*
