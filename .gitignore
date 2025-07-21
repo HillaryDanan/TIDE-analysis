@@ -33,4 +33,4 @@ Thumbs.db
 
 # Checkpoints
 checkpoints/
-*.checkpoint
+*.checkpoint# Allow sharing results
