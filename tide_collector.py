@@ -44,7 +44,7 @@ class TIDECollector:
         
         # Google (Gemini)
         genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
-        self.gemini_model = genai.GenerativeModel('gemini-pro')
+        self.gemini_model = genai.GenerativeModel('gemini-1.5-flash')
         
     def load_prompts(self):
         """Load prompts from files based on dissertation categories"""
