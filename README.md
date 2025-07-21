@@ -1,3 +1,5 @@
+![TIDE Analysis](https://img.shields.io/badge/TIDE-Working-00ff88?style=for-the-badge)
+![Coherence](https://img.shields.io/badge/Coherence-66.6%25-00ddff?style=for-the-badge)
 # 🧠 TIDE Automation Suite
 
 **Temporal Internal Dimension Exploration** - Based on Hillary's Dissertation Framework
