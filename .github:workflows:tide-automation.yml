@@ -1,0 +1,46 @@
+name: TIDE Automation
+
+on:
+  # Run manually
+  workflow_dispatch:
+  # Or on schedule (daily at 2 AM)
+  schedule:
+    - cron: '0 2 * * *'
+
+jobs:
+  collect-and-analyze:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+    
+    - name: Run TIDE automation
+      env:
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      run: |
+        python tide_automation.py
+    
+    - name: Upload results
+      uses: actions/upload-artifact@v3
+      with:
+        name: tide-results
+        path: results/
+    
+    - name: Deploy to GitHub Pages
+      if: success()
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./results
+        destination_dir: latest

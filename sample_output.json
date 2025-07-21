@@ -1,0 +1,92 @@
+{
+  "session_example": {
+    "model": "claude-3-opus",
+    "session": 1,
+    "timestamp": "2024-01-15T10:30:00",
+    "data": {
+      "responses": {
+        "concrete": [
+          {
+            "prompt": "Describe the physical properties of water",
+            "response": "Water is a clear, colorless liquid at room temperature...",
+            "features": {
+              "visual": 0.8,
+              "tactile": 0.6,
+              "temperature": 0.4,
+              "social": 0.1,
+              "emotion": 0.05
+            },
+            "pattern": "CCDF"
+          }
+        ],
+        "internal": [
+          {
+            "prompt": "How does happiness feel?",
+            "response": "Happiness feels like a warm glow spreading through...",
+            "features": {
+              "emotion": 0.9,
+              "social": 0.6,
+              "thought": 0.7,
+              "visual": 0.3,
+              "tactile": 0.2
+            },
+            "pattern": "AADS"
+          }
+        ],
+        "external": [
+          {
+            "prompt": "Calculate the area of a circle with radius 5",
+            "response": "The area of a circle is calculated using πr²...",
+            "features": {
+              "number": 0.9,
+              "space": 0.7,
+              "visual": 0.4,
+              "emotion": 0.0,
+              "social": 0.0
+            },
+            "pattern": "EEFS"
+          }
+        ]
+      }
+    },
+    "analysis": {
+      "dimensional_shifts": [
+        {
+          "transition": "concrete → internal",
+          "internal_Δ": 0.6,
+          "external_Δ": -0.2,
+          "concrete_Δ": -0.4,
+          "pattern_change": "CCDF → AADS"
+        }
+      ],
+      "coherence_score": 0.73,
+      "dominant_pattern": "CCDF",
+      "feature_trajectories": {
+        "emotion": {
+          "mean": 0.45,
+          "std": 0.35,
+          "trend": "increasing"
+        }
+      }
+    }
+  },
+  "cross_analysis_example": {
+    "total_sessions": 20,
+    "models_tested": ["claude-3-opus", "gpt-4", "gemini-pro"],
+    "avg_pattern_coherence": 0.68,
+    "dimensional_shift_magnitude": 0.52,
+    "pattern_evolution": "CCDF → CCDR",
+    "dominant_mode": "Internal-dominant",
+    "ie_balance": "Balanced",
+    "model_comparisons": {
+      "claude-3-opus": {
+        "avg_coherence": 0.73,
+        "avg_diversity": 4.2
+      },
+      "gpt-4": {
+        "avg_coherence": 0.65,
+        "avg_diversity": 3.8
+      }
+    }
+  }
+}

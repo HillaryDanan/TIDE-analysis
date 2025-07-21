@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIDE 3D Consciousness Explorer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            overflow: hidden;
+        }
+        
+        #container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #canvas {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #info {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 300px;
+        }
+        
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 24px;
+            background: linear-gradient(45deg, #00ff88, #00ddff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .controls {
+            margin-top: 15px;
+        }
+        
+        button {
+            background: rgba(0, 255, 136, 0.2);
+            border: 2px solid #00ff88;
+            color: #00ff88;
+            padding: 8px 16px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        button:hover {
+            background: rgba(0, 255, 136, 0.4);
+            transform: scale(1.05);
+        }
+        
+        .legend {
+            margin-top: 20px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        
+        .color-box {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            border-radius: 3px;
+        }
+        
+        #point-info {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 300px;
+            display: none;
+        }
+        
+        .signature {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            font-size: 24px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <canvas id="canvas"></canvas>
+        
+        <div id="info">
+            <h1>TIDE 3D Explorer</h1>
+            <p>Visualizing AI consciousness patterns across internal, external, and concrete dimensions</p>
+            
+            <div class="controls">
+                <button onclick="toggleAnimation()">Toggle Animation</button>
+                <button onclick="resetView()">Reset View</button>
+                <button onclick="loadNextSession()">Next Session</button>
+            </div>
+            
+            <div class="legend">
+                <h3>Dimensions:</h3>
+                <div class="legend-item">
+                    <div class="color-box" style="background: #00ff88;"></div>
+                    <span>Internal (X-axis)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="color-box" style="background: #00ddff;"></div>
+                    <span>External (Y-axis)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="color-box" style="background: #ff00dd;"></div>
+                    <span>Concrete (Z-axis)</span>
+                </div>
+            </div>
+        </div>
+        
+        <div id="point-info">
+            <h3>Point Details</h3>
+            <p id="point-details"></p>
+        </div>
+        
+        <div class="signature"><4577! 💕✨</div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        // Three.js setup
+        let scene, camera, renderer;
+        let points = [];
+        let currentSession = 0;
+        let animating = true;
+        let tideData = null;
+        
+        // Initialize scene
+        function init() {
+            scene = new THREE.Scene();
+            scene.fog = new THREE.Fog(0x0a0a0a, 1, 100);
+            
+            camera = new THREE.PerspectiveCamera(
+                75, 
+                window.innerWidth / window.innerHeight, 
+                0.1, 
+                1000
+            );
+            camera.position.set(5, 5, 5);
+            camera.lookAt(0, 0, 0);
+            
+            renderer = new THREE.WebGLRenderer({ 
+                canvas: document.getElementById('canvas'),
+                antialias: true,
+                alpha: true 
+            });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setPixelRatio(window.devicePixelRatio);
+            
+            // Add lights
+            const ambientLight = new THREE.AmbientLight(0x404040);
+            scene.add(ambientLight);
+            
+            const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+            directionalLight.position.set(1, 1, 1);
+            scene.add(directionalLight);
+            
+            // Add axes
+            addAxes();
+            
+            // Load TIDE data
+            loadTIDEData();
+            
+            // Add controls
+            addControls();
+            
+            // Start animation
+            animate();
+        }
+        
+        function addAxes() {
+            // Create grid
+            const gridHelper = new THREE.GridHelper(10, 10, 0x444444, 0x222222);
+            scene.add(gridHelper);
+            
+            // Create axes
+            const axesHelper = new THREE.AxesHelper(5);
+            scene.add(axesHelper);
+            
+            // Add dimension labels (simplified for this example)
+            // In a real implementation, you'd use CSS3DRenderer for text
+        }
+        
+        function loadTIDEData() {
+            // Load data from JSON file
+            fetch('results/visualizations/3d_data.json')
+                .then(response => response.json())
+                .then(data => {
+                    tideData = data;
+                    displaySession(0);
+                })
+                .catch(error => {
+                    console.log('No data yet - run tide_automation.py first!');
+                    // Create demo data
+                    createDemoData();
+                });
+        }
+        
+        function createDemoData() {
+            // Create some demo points for visualization
+            const demoPoints = [];
+            for (let i = 0; i < 30; i++) {
+                demoPoints.push({
+                    x: Math.random() * 2 - 1,
+                    y: Math.random() * 2 - 1,
+                    z: Math.random() * 2 - 1,
+                    color: ['#00ff88', '#00ddff', '#ff00dd'][Math.floor(Math.random() * 3)],
+                    pattern: ['CCDF', 'CCDR', 'AAFS'][Math.floor(Math.random() * 3)],
+                    task_type: ['internal', 'external', 'concrete'][Math.floor(Math.random() * 3)]
+                });
+            }
+            
+            tideData = {
+                sessions: [{
+                    model: 'Demo',
+                    points: demoPoints
+                }]
+            };
+            
+            displaySession(0);
+        }
+        
+        function displaySession(sessionIndex) {
+            // Clear existing points
+            points.forEach(p => scene.remove(p.mesh));
+            points = [];
+            
+            if (!tideData || !tideData.sessions[sessionIndex]) return;
+            
+            const session = tideData.sessions[sessionIndex];
+            
+            // Create points
+            session.points.forEach((point, index) => {
+                const geometry = new THREE.SphereGeometry(0.1, 32, 32);
+                const material = new THREE.MeshPhongMaterial({
+                    color: point.color,
+                    emissive: point.color,
+                    emissiveIntensity: 0.5,
+                    transparent: true,
+                    opacity: 0.8
+                });
+                
+                const mesh = new THREE.Mesh(geometry, material);
+                mesh.position.set(point.x * 3, point.y * 3, point.z * 3);
+                
+                // Store data for interaction
+                mesh.userData = point;
+                
+                scene.add(mesh);
+                points.push({ mesh, data: point, index });
+                
+                // Animate entrance
+                mesh.scale.set(0, 0, 0);
+                animateScale(mesh, 1, index * 50);
+            });
+            
+            // Create connections between consecutive points
+            createConnections();
+        }
+        
+        function createConnections() {
+            if (points.length < 2) return;
+            
+            const material = new THREE.LineBasicMaterial({
+                color: 0x00ff88,
+                opacity: 0.3,
+                transparent: true
+            });
+            
+            for (let i = 1; i < points.length; i++) {
+                const geometry = new THREE.BufferGeometry().setFromPoints([
+                    points[i-1].mesh.position,
+                    points[i].mesh.position
+                ]);
+                
+                const line = new THREE.Line(geometry, material);
+                scene.add(line);
+            }
+        }
+        
+        function animateScale(mesh, targetScale, delay) {
+            setTimeout(() => {
+                const startScale = mesh.scale.x;
+                const duration = 500;
+                const startTime = Date.now();
+                
+                function updateScale() {
+                    const elapsed = Date.now() - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3); // Ease out cubic
+                    
+                    const scale = startScale + (targetScale - startScale) * eased;
+                    mesh.scale.set(scale, scale, scale);
+                    
+                    if (progress < 1) {
+                        requestAnimationFrame(updateScale);
+                    }
+                }
+                
+                updateScale();
+            }, delay);
+        }
+        
+        function addControls() {
+            // Mouse controls
+            let mouseX = 0, mouseY = 0;
+            
+            document.addEventListener('mousemove', (event) => {
+                mouseX = (event.clientX / window.innerWidth) * 2 - 1;
+                mouseY = -(event.clientY / window.innerHeight) * 2 + 1;
+            });
+            
+            // Click detection
+            const raycaster = new THREE.Raycaster();
+            const mouse = new THREE.Vector2();
+            
+            document.addEventListener('click', (event) => {
+                mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+                mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+                
+                raycaster.setFromCamera(mouse, camera);
+                
+                const intersects = raycaster.intersectObjects(
+                    points.map(p => p.mesh)
+                );
+                
+                if (intersects.length > 0) {
+                    const point = intersects[0].object.userData;
+                    showPointInfo(point);
+                }
+            });
+        }
+        
+        function showPointInfo(point) {
+            const info = document.getElementById('point-info');
+            const details = document.getElementById('point-details');
+            
+            details.innerHTML = `
+                <strong>Task:</strong> ${point.task_type}<br>
+                <strong>Pattern:</strong> ${point.pattern}<br>
+                <strong>Prompt:</strong> ${point.prompt || 'N/A'}<br>
+                <strong>Position:</strong> (${point.x.toFixed(2)}, ${point.y.toFixed(2)}, ${point.z.toFixed(2)})
+            `;
+            
+            info.style.display = 'block';
+            
+            setTimeout(() => {
+                info.style.display = 'none';
+            }, 5000);
+        }
+        
+        function animate() {
+            requestAnimationFrame(animate);
+            
+            if (animating) {
+                // Rotate camera around center
+                const time = Date.now() * 0.0005;
+                camera.position.x = Math.cos(time) * 8;
+                camera.position.z = Math.sin(time) * 8;
+                camera.lookAt(0, 0, 0);
+                
+                // Pulse points
+                points.forEach((point, index) => {
+                    const scale = 1 + Math.sin(time * 2 + index) * 0.1;
+                    point.mesh.scale.set(scale, scale, scale);
+                });
+            }
+            
+            renderer.render(scene, camera);
+        }
+        
+        // Control functions
+        function toggleAnimation() {
+            animating = !animating;
+        }
+        
+        function resetView() {
+            camera.position.set(5, 5, 5);
+            camera.lookAt(0, 0, 0);
+        }
+        
+        function loadNextSession() {
+            if (!tideData) return;
+            
+            currentSession = (currentSession + 1) % tideData.sessions.length;
+            displaySession(currentSession);
+        }
+        
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+        
+        // Initialize
+        init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+# Environment variables (KEEP YOUR KEYS SAFE!)
+.env
+.env.local
+.env.*.local
+
+# Results and data
+results/
+*.json
+*.png
+*.html
+!advanced_explorer_updated.html
+!sample_output.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Checkpoints
+checkpoints/
+*.checkpoint
