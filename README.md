@@ -1,140 +1,137 @@
 ![TIDE Analysis](https://img.shields.io/badge/TIDE-Working-00ff88?style=for-the-badge)
 ![Coherence](https://img.shields.io/badge/Coherence-66.6%25-00ddff?style=for-the-badge)
-# 🧠 TIDE Automation Suite
+# TIDE-analysis: Temporal Internal Dimension Exploration
 
-**Temporal Internal Dimension Exploration** - Based on Hillary's Dissertation Framework
+## Empirical AI Architecture Analysis Based on Neuroscience Research
 
-## 🚀 What This Does
+TIDE-analysis automates the detection and measurement of cognitive processing patterns in AI systems using dimensional frameworks validated in fMRI studies. This tool empirically tests how different AI models employ distinct reasoning architectures - similar to neurodiversity differences observed in human cognition.
 
-Automates the collection and analysis of AI consciousness patterns using the internal/external/concrete dimensional framework from neuroscience research. Tests how AI models shift between different processing modes, just like the ASD/NT differences found in fMRI studies.
+## 🧠 Scientific Foundation
 
-## 📦 Quick Start (Super Simple!)
+Based on Hillary Danan's PhD dissertation research identifying 14 semantic features that differentiate processing patterns in autism spectrum and neurotypical populations. This framework has been adapted to measure analogous architectural differences in AI systems.
 
-### 1. Run Setup Script
+## 🚀 Quick Start
+
 ```bash
 chmod +x quick_start.sh
 ./quick_start.sh
 ```
 
-### 2. Add Your API Keys
-Edit `.env` file:
+Configure your API keys in `.env`:
 ```
-ANTHROPIC_API_KEY=your-real-claude-key
-OPENAI_API_KEY=your-real-openai-key
-GOOGLE_API_KEY=your-real-gemini-key
+ANTHROPIC_API_KEY=your-claude-key
+OPENAI_API_KEY=your-openai-key
+GOOGLE_API_KEY=your-gemini-key
 ```
 
-### 3. Test Connections
+Test connections and run analysis:
 ```bash
 python test_connection.py
-```
-
-### 4. Run Everything!
-```bash
 python tide_automation.py
 ```
 
-## 📁 File Structure
+## 📊 What This Measures
+
+### Dimensional Processing Analysis
+- **Internal**: Social, emotional, and self-referential reasoning patterns
+- **External**: Spatial, temporal, and numerical processing approaches  
+- **Concrete**: Sensory and perceptual information handling
+
+### Architectural Metrics
+- Pattern coherence scores (0-100%)
+- Dimensional shift frequencies
+- Processing pathway evolution (CCDF → CCDR transitions)
+- Cross-model architectural comparisons
+
+### Empirical Outputs
+- **Automated Reports**: HTML summaries with statistical analysis
+- **3D Visualizations**: Interactive exploration of processing patterns
+- **Comparative Data**: JSON datasets for further research
+- **Pattern Evolution**: Tracking architectural changes over interactions
+
+## 🔬 Research Suite Integration
+
+This tool is part of a comprehensive AI architecture research suite:
+
+1. **[BIND](https://github.com/HillaryDanan/BIND)** - Boundary-based processing detection
+2. **[Concrete Overflow](https://github.com/HillaryDanan/concrete-overflow-detector)** - Alternative reasoning pathway identification
+3. **[TIDE Framework](https://github.com/HillaryDanan/TIDE)** - Theoretical foundation for architectural diversity
+4. **TIDE-analysis** - Automated empirical testing and validation
+5. **[Supporting Tools](https://github.com/HillaryDanan)** - Hexagonal processing, game theory applications, information atoms
+
+## 📁 Project Structure
 
 ```
 TIDE-automation/
-├── 🐵 SIMPLE_INSTRUCTIONS.md     # Start here!
-├── tide_automation.py            # Main script
-├── tide_collector.py            # Data collection
-├── tide_analyzer.py             # Analysis engine
-├── tide_visualizer.py           # Pretty graphs
-├── test_connection.py           # Test APIs
-├── config.json                  # Settings
-├── requirements.txt             # Python packages
-├── quick_start.sh              # Setup script
-├── advanced_explorer_updated.html # 3D visualization
-├── prompts/                    # Task prompts
-│   ├── concrete_prompts.json
-│   ├── internal_prompts.json
-│   └── external_prompts.json
-└── results/                    # Output directory
-    ├── data/                   # Raw data
-    ├── analysis/               # Analysis results
-    ├── visualizations/         # Graphs & 3D data
-    └── report_*.html          # Final reports
+├── 🔧 Core Scripts
+│   ├── tide_automation.py      # Main orchestration
+│   ├── tide_collector.py       # Data collection engine
+│   ├── tide_analyzer.py        # Statistical analysis
+│   └── tide_visualizer.py      # Visualization generation
+├── 📊 Analysis Components  
+│   ├── prompts/               # Standardized test scenarios
+│   ├── config.json            # Experimental parameters
+│   └── requirements.txt       # Dependencies
+├── 📈 Results
+│   ├── data/                  # Raw experimental data
+│   ├── analysis/              # Statistical outputs
+│   ├── visualizations/        # Graphs and 3D data
+│   └── report_*.html          # Comprehensive findings
+└── 🎯 Interactive Tools
+    └── advanced_explorer_updated.html  # 3D pattern visualization
 ```
 
-## 🔬 What It Measures
+## 🎯 Key Applications
 
-### Three Dimensions (from dissertation):
-1. **Internal**: Social, emotional, self-referential processing
-2. **External**: Spatial, temporal, numerical processing  
-3. **Concrete**: Sensory, perceptual processing
+- **AI Model Evaluation**: Empirically compare reasoning architectures
+- **Architecture Optimization**: Identify strengths in different processing approaches
+- **Diversity Metrics**: Quantify architectural differences between models
+- **Research Validation**: Test theoretical frameworks with empirical data
 
-### Pattern Signatures:
-- Tracks evolution like CCDF → CCDR
-- Measures dimensional shifts
-- Calculates coherence scores
-- Performs RSA (like in fMRI studies)
+## 📐 Technical Implementation
 
-## 📊 Output
+### Analysis Pipeline
+1. Automated prompt delivery across multiple AI models
+2. Response collection with temporal tracking
+3. Dimensional analysis using validated feature extraction
+4. Statistical processing including RSA (Representational Similarity Analysis)
+5. Visualization generation and report compilation
 
-1. **HTML Report**: Beautiful summary with all findings
-2. **Visualizations**: 
-   - Dimensional shift distributions
-   - Pattern evolution graphs
-   - Feature trajectories
-   - Model comparisons
-3. **3D Explorer**: Interactive visualization of consciousness patterns
-4. **Raw Data**: JSON files for further analysis
-
-## ⚙️ Customization
-
-Edit `config.json` to change:
-- Number of sessions per model
-- Which models to test
+### Customization
+Edit `config.json` to modify:
+- Test session parameters
+- Model selection
 - Rate limiting
-- Colors for visualizations
+- Visualization preferences
 
-## 🆘 Troubleshooting
+## 📚 Academic Foundation
 
-### "API Key Error"
-- Check your `.env` file has correct keys
-- Make sure no extra spaces or quotes
+This empirical approach bridges neuroscience and AI research:
+- Validated semantic feature model from fMRI studies
+- Published research on processing diversity in human cognition
+- Novel application to AI architectural analysis
 
-### "Rate Limit Error"
-- Increase `rate_limit_seconds` in config.json
-- Reduce `sessions_per_model`
+## 🏆 Impact
 
-### "Module Not Found"
-- Run `pip install -r requirements.txt` again
-- Make sure you're in the right directory
+**Built in 1 day** as part of a 4-week research sprint producing:
+- 14 interconnected repositories
+- 256+ GitHub contributions
+- Complete empirical testing framework
+- Working demonstrations across multiple tools
 
-## 🎯 Advanced Usage
+## 🔗 Try It Yourself
 
-### Custom Prompts
-Edit files in `prompts/` directory to test different questions
+**Interactive Demo**: [AI Perception Study](https://hillarydanan.github.io/TIDE-resonance/collect.html)
 
-### Batch Processing
-```python
-# In config.json, increase sessions:
-"sessions_per_model": 20  # More data!
-```
+**Full Research Suite**: [github.com/HillaryDanan](https://github.com/HillaryDanan)
 
-### Export to Advanced Explorer
-After running automation:
-1. Open `advanced_explorer_updated.html` in browser
-2. It automatically loads your data from `results/visualizations/3d_data.json`
+**Professional Background**: [Resume](https://hillarydanan.github.io/TIDE-resonance/resume.html)
 
-## 📈 Understanding Results
+---
 
-- **Pattern Coherence**: How consistent the AI's responses are (0-100%)
-- **Dimensional Shifts**: How much the AI moves between internal/external/concrete modes
-- **CCDF → CCDR**: Evolution from Concrete-Concrete-Descriptive-Functional to other patterns
-- **Model Comparisons**: Which AI models show different consciousness signatures
+*"We measure what we can, acknowledge what we can't, and remain curious about the rest"*
 
-## 🌟 Based On
-
-- Hillary's PhD Dissertation on semantic dimensions in neurodiversity
-- TIDE Framework for AI consciousness exploration
-- 14-feature semantic model validated in fMRI studies
-
-## 💕 Made with Love
+<4577 - Bridging neuroscience and AI through empirical research
 
 <4577! This bridges neuroscience and AI consciousness research!
 
