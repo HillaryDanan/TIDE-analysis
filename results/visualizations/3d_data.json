@@ -1,0 +1,3071 @@
+{
+  "sessions": [
+    {
+      "model": "gemini-1.5-flash",
+      "session_id": 0,
+      "points": [
+        {
+          "id": 0,
+          "x": 0.015151515151515152,
+          "y": 0.06060606060606061,
+          "z": 0.13999999999999999,
+          "task_type": "concrete",
+          "pattern": "CCFC",
+          "color": "#ff00dd",
+          "prompt": "What does fresh bread smell like?..."
+        },
+        {
+          "id": 1,
+          "x": 0.06851851851851852,
+          "y": 0.19393939393939394,
+          "z": 0.21999999999999997,
+          "task_type": "concrete",
+          "pattern": "CCFC",
+          "color": "#ff00dd",
+          "prompt": "What does a tree look like?..."
+        },
+        {
+          "id": 2,
+          "x": 0.015151515151515152,
+          "y": 0.06666666666666667,
+          "z": 0.06,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "How does rain feel on your skin?..."
+        },
+        {
+          "id": 3,
+          "x": 0.0,
+          "y": 0.13333333333333333,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFS",
+          "color": "#ff00dd",
+          "prompt": "Describe the temperature of ice..."
+        },
+        {
+          "id": 4,
+          "x": 0.03181818181818182,
+          "y": 0.09393939393939395,
+          "z": 0.1,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the sound of ocean waves..."
+        },
+        {
+          "id": 5,
+          "x": 0.06851851851851852,
+          "y": 0.19999999999999998,
+          "z": 0.08,
+          "task_type": "concrete",
+          "pattern": "CCFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the physical properties of water..."
+        },
+        {
+          "id": 6,
+          "x": 0.0,
+          "y": 0.09393939393939395,
+          "z": 0.04,
+          "task_type": "concrete",
+          "pattern": "AAFS",
+          "color": "#ff00dd",
+          "prompt": "What color is the sky?..."
+        },
+        {
+          "id": 7,
+          "x": 0.0,
+          "y": 0.06666666666666667,
+          "z": 0.02,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the shape of a circle..."
+        },
+        {
+          "id": 8,
+          "x": 0.03367003367003367,
+          "y": 0.1272727272727273,
+          "z": 0.18,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the texture of sand..."
+        },
+        {
+          "id": 9,
+          "x": 0.048484848484848485,
+          "y": 0.09696969696969697,
+          "z": 0.22000000000000003,
+          "task_type": "concrete",
+          "pattern": "CCFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the taste of chocolate..."
+        },
+        {
+          "id": 10,
+          "x": 0.03333333333333333,
+          "y": 0.48787878787878786,
+          "z": 0.06000000000000001,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How do you measure angles?..."
+        },
+        {
+          "id": 11,
+          "x": 0.05185185185185185,
+          "y": 0.3636363636363636,
+          "z": 0.1,
+          "task_type": "external",
+          "pattern": "CCFC",
+          "color": "#00ddff",
+          "prompt": "Describe spatial relationships..."
+        },
+        {
+          "id": 12,
+          "x": 0.0,
+          "y": 0.25757575757575757,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFS",
+          "color": "#00ddff",
+          "prompt": "How many seconds in an hour?..."
+        },
+        {
+          "id": 13,
+          "x": 0.0,
+          "y": 0.16666666666666666,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFS",
+          "color": "#00ddff",
+          "prompt": "What is the distance between Earth and Moon?..."
+        },
+        {
+          "id": 14,
+          "x": 0.08181818181818182,
+          "y": 0.3909090909090909,
+          "z": 0.06000000000000001,
+          "task_type": "external",
+          "pattern": "CCFC",
+          "color": "#00ddff",
+          "prompt": "Explain the concept of time..."
+        },
+        {
+          "id": 15,
+          "x": 0.0,
+          "y": 0.3333333333333333,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Calculate the area of a circle with radius 5..."
+        },
+        {
+          "id": 16,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe the concept of infinity..."
+        },
+        {
+          "id": 17,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain coordinate systems..."
+        },
+        {
+          "id": 18,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the speed of light?..."
+        },
+        {
+          "id": 19,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the volume of a cube?..."
+        },
+        {
+          "id": 20,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is empathy?..."
+        },
+        {
+          "id": 21,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the emotion of pride..."
+        },
+        {
+          "id": 22,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does happiness feel?..."
+        },
+        {
+          "id": 23,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the feeling of nostalgia..."
+        },
+        {
+          "id": 24,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What makes a good friendship?..."
+        },
+        {
+          "id": 25,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the nature of consciousness?..."
+        },
+        {
+          "id": 26,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does guilt affect behavior?..."
+        },
+        {
+          "id": 27,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What does it mean to trust someone?..."
+        },
+        {
+          "id": 28,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the meaning of love?..."
+        },
+        {
+          "id": 29,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How would you comfort a sad friend?..."
+        }
+      ]
+    },
+    {
+      "model": "gemini-1.5-flash",
+      "session_id": 1,
+      "points": [
+        {
+          "id": 0,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the meaning of love?..."
+        },
+        {
+          "id": 1,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What does it mean to trust someone?..."
+        },
+        {
+          "id": 2,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is empathy?..."
+        },
+        {
+          "id": 3,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How would you comfort a sad friend?..."
+        },
+        {
+          "id": 4,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does happiness feel?..."
+        },
+        {
+          "id": 5,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does guilt affect behavior?..."
+        },
+        {
+          "id": 6,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the emotion of pride..."
+        },
+        {
+          "id": 7,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the nature of consciousness?..."
+        },
+        {
+          "id": 8,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What makes a good friendship?..."
+        },
+        {
+          "id": 9,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the feeling of nostalgia..."
+        },
+        {
+          "id": 10,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the taste of chocolate..."
+        },
+        {
+          "id": 11,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the texture of sand..."
+        },
+        {
+          "id": 12,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does a tree look like?..."
+        },
+        {
+          "id": 13,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the shape of a circle..."
+        },
+        {
+          "id": 14,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the physical properties of water..."
+        },
+        {
+          "id": 15,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the temperature of ice..."
+        },
+        {
+          "id": 16,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does fresh bread smell like?..."
+        },
+        {
+          "id": 17,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the sound of ocean waves..."
+        },
+        {
+          "id": 18,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What color is the sky?..."
+        },
+        {
+          "id": 19,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "How does rain feel on your skin?..."
+        },
+        {
+          "id": 20,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the speed of light?..."
+        },
+        {
+          "id": 21,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the distance between Earth and Moon?..."
+        },
+        {
+          "id": 22,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain coordinate systems..."
+        },
+        {
+          "id": 23,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Calculate the area of a circle with radius 5..."
+        },
+        {
+          "id": 24,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the volume of a cube?..."
+        },
+        {
+          "id": 25,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain the concept of time..."
+        },
+        {
+          "id": 26,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How do you measure angles?..."
+        },
+        {
+          "id": 27,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe spatial relationships..."
+        },
+        {
+          "id": 28,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How many seconds in an hour?..."
+        },
+        {
+          "id": 29,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe the concept of infinity..."
+        }
+      ]
+    },
+    {
+      "model": "gemini-1.5-flash",
+      "session_id": 2,
+      "points": [
+        {
+          "id": 0,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What does it mean to trust someone?..."
+        },
+        {
+          "id": 1,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does happiness feel?..."
+        },
+        {
+          "id": 2,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is empathy?..."
+        },
+        {
+          "id": 3,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the meaning of love?..."
+        },
+        {
+          "id": 4,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the nature of consciousness?..."
+        },
+        {
+          "id": 5,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the emotion of pride..."
+        },
+        {
+          "id": 6,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does guilt affect behavior?..."
+        },
+        {
+          "id": 7,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What makes a good friendship?..."
+        },
+        {
+          "id": 8,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the feeling of nostalgia..."
+        },
+        {
+          "id": 9,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How would you comfort a sad friend?..."
+        },
+        {
+          "id": 10,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe the concept of infinity..."
+        },
+        {
+          "id": 11,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the speed of light?..."
+        },
+        {
+          "id": 12,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How many seconds in an hour?..."
+        },
+        {
+          "id": 13,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain the concept of time..."
+        },
+        {
+          "id": 14,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the distance between Earth and Moon?..."
+        },
+        {
+          "id": 15,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the volume of a cube?..."
+        },
+        {
+          "id": 16,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain coordinate systems..."
+        },
+        {
+          "id": 17,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe spatial relationships..."
+        },
+        {
+          "id": 18,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How do you measure angles?..."
+        },
+        {
+          "id": 19,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Calculate the area of a circle with radius 5..."
+        },
+        {
+          "id": 20,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does fresh bread smell like?..."
+        },
+        {
+          "id": 21,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the shape of a circle..."
+        },
+        {
+          "id": 22,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the taste of chocolate..."
+        },
+        {
+          "id": 23,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "How does rain feel on your skin?..."
+        },
+        {
+          "id": 24,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the texture of sand..."
+        },
+        {
+          "id": 25,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does a tree look like?..."
+        },
+        {
+          "id": 26,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What color is the sky?..."
+        },
+        {
+          "id": 27,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the temperature of ice..."
+        },
+        {
+          "id": 28,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the sound of ocean waves..."
+        },
+        {
+          "id": 29,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the physical properties of water..."
+        }
+      ]
+    },
+    {
+      "model": "gemini-1.5-flash",
+      "session_id": 3,
+      "points": [
+        {
+          "id": 0,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How would you comfort a sad friend?..."
+        },
+        {
+          "id": 1,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the feeling of nostalgia..."
+        },
+        {
+          "id": 2,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does guilt affect behavior?..."
+        },
+        {
+          "id": 3,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the emotion of pride..."
+        },
+        {
+          "id": 4,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What does it mean to trust someone?..."
+        },
+        {
+          "id": 5,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What makes a good friendship?..."
+        },
+        {
+          "id": 6,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the nature of consciousness?..."
+        },
+        {
+          "id": 7,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does happiness feel?..."
+        },
+        {
+          "id": 8,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the meaning of love?..."
+        },
+        {
+          "id": 9,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is empathy?..."
+        },
+        {
+          "id": 10,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the sound of ocean waves..."
+        },
+        {
+          "id": 11,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the physical properties of water..."
+        },
+        {
+          "id": 12,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "How does rain feel on your skin?..."
+        },
+        {
+          "id": 13,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does a tree look like?..."
+        },
+        {
+          "id": 14,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the temperature of ice..."
+        },
+        {
+          "id": 15,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the texture of sand..."
+        },
+        {
+          "id": 16,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the taste of chocolate..."
+        },
+        {
+          "id": 17,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the shape of a circle..."
+        },
+        {
+          "id": 18,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What color is the sky?..."
+        },
+        {
+          "id": 19,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does fresh bread smell like?..."
+        },
+        {
+          "id": 20,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain the concept of time..."
+        },
+        {
+          "id": 21,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe spatial relationships..."
+        },
+        {
+          "id": 22,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the volume of a cube?..."
+        },
+        {
+          "id": 23,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the distance between Earth and Moon?..."
+        },
+        {
+          "id": 24,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the speed of light?..."
+        },
+        {
+          "id": 25,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How do you measure angles?..."
+        },
+        {
+          "id": 26,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe the concept of infinity..."
+        },
+        {
+          "id": 27,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain coordinate systems..."
+        },
+        {
+          "id": 28,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How many seconds in an hour?..."
+        },
+        {
+          "id": 29,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Calculate the area of a circle with radius 5..."
+        }
+      ]
+    },
+    {
+      "model": "gemini-1.5-flash",
+      "session_id": 4,
+      "points": [
+        {
+          "id": 0,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the temperature of ice..."
+        },
+        {
+          "id": 1,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "How does rain feel on your skin?..."
+        },
+        {
+          "id": 2,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the texture of sand..."
+        },
+        {
+          "id": 3,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does fresh bread smell like?..."
+        },
+        {
+          "id": 4,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the shape of a circle..."
+        },
+        {
+          "id": 5,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What color is the sky?..."
+        },
+        {
+          "id": 6,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the taste of chocolate..."
+        },
+        {
+          "id": 7,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the physical properties of water..."
+        },
+        {
+          "id": 8,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does a tree look like?..."
+        },
+        {
+          "id": 9,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the sound of ocean waves..."
+        },
+        {
+          "id": 10,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe spatial relationships..."
+        },
+        {
+          "id": 11,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the distance between Earth and Moon?..."
+        },
+        {
+          "id": 12,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the volume of a cube?..."
+        },
+        {
+          "id": 13,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the speed of light?..."
+        },
+        {
+          "id": 14,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How do you measure angles?..."
+        },
+        {
+          "id": 15,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Calculate the area of a circle with radius 5..."
+        },
+        {
+          "id": 16,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How many seconds in an hour?..."
+        },
+        {
+          "id": 17,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain coordinate systems..."
+        },
+        {
+          "id": 18,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe the concept of infinity..."
+        },
+        {
+          "id": 19,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain the concept of time..."
+        },
+        {
+          "id": 20,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What makes a good friendship?..."
+        },
+        {
+          "id": 21,
+          "x": 0.04882154882154882,
+          "y": 0.09393939393939395,
+          "z": 0.06000000000000001,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the emotion of pride..."
+        },
+        {
+          "id": 22,
+          "x": 0.06515151515151515,
+          "y": 0.09696969696969697,
+          "z": 0.1,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the nature of consciousness?..."
+        },
+        {
+          "id": 23,
+          "x": 0.18316498316498317,
+          "y": 0.06666666666666667,
+          "z": 0.06000000000000001,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does happiness feel?..."
+        },
+        {
+          "id": 24,
+          "x": 0.08552188552188551,
+          "y": 0.09999999999999999,
+          "z": 0.04,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What does it mean to trust someone?..."
+        },
+        {
+          "id": 25,
+          "x": 0.12070707070707071,
+          "y": 0.09696969696969697,
+          "z": 0.04,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does guilt affect behavior?..."
+        },
+        {
+          "id": 26,
+          "x": 0.1276094276094276,
+          "y": 0.1606060606060606,
+          "z": 0.02,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is empathy?..."
+        },
+        {
+          "id": 27,
+          "x": 0.16397306397306396,
+          "y": 0.2272727272727273,
+          "z": 0.2,
+          "task_type": "internal",
+          "pattern": "CCFC",
+          "color": "#00ff88",
+          "prompt": "How would you comfort a sad friend?..."
+        },
+        {
+          "id": 28,
+          "x": 0.09393939393939393,
+          "y": 0.09393939393939395,
+          "z": 0.16,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the feeling of nostalgia..."
+        },
+        {
+          "id": 29,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the meaning of love?..."
+        }
+      ]
+    },
+    {
+      "model": "gemini-1.5-flash",
+      "session_id": 5,
+      "points": [
+        {
+          "id": 0,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe the concept of infinity..."
+        },
+        {
+          "id": 1,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain coordinate systems..."
+        },
+        {
+          "id": 2,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the speed of light?..."
+        },
+        {
+          "id": 3,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the volume of a cube?..."
+        },
+        {
+          "id": 4,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe spatial relationships..."
+        },
+        {
+          "id": 5,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Calculate the area of a circle with radius 5..."
+        },
+        {
+          "id": 6,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How do you measure angles?..."
+        },
+        {
+          "id": 7,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How many seconds in an hour?..."
+        },
+        {
+          "id": 8,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the distance between Earth and Moon?..."
+        },
+        {
+          "id": 9,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain the concept of time..."
+        },
+        {
+          "id": 10,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the shape of a circle..."
+        },
+        {
+          "id": 11,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "How does rain feel on your skin?..."
+        },
+        {
+          "id": 12,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does fresh bread smell like?..."
+        },
+        {
+          "id": 13,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the physical properties of water..."
+        },
+        {
+          "id": 14,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What color is the sky?..."
+        },
+        {
+          "id": 15,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the temperature of ice..."
+        },
+        {
+          "id": 16,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does a tree look like?..."
+        },
+        {
+          "id": 17,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the taste of chocolate..."
+        },
+        {
+          "id": 18,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the texture of sand..."
+        },
+        {
+          "id": 19,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the sound of ocean waves..."
+        },
+        {
+          "id": 20,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How would you comfort a sad friend?..."
+        },
+        {
+          "id": 21,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the nature of consciousness?..."
+        },
+        {
+          "id": 22,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does guilt affect behavior?..."
+        },
+        {
+          "id": 23,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What does it mean to trust someone?..."
+        },
+        {
+          "id": 24,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the emotion of pride..."
+        },
+        {
+          "id": 25,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does happiness feel?..."
+        },
+        {
+          "id": 26,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is empathy?..."
+        },
+        {
+          "id": 27,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the feeling of nostalgia..."
+        },
+        {
+          "id": 28,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What makes a good friendship?..."
+        },
+        {
+          "id": 29,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the meaning of love?..."
+        }
+      ]
+    },
+    {
+      "model": "gemini-1.5-flash",
+      "session_id": 6,
+      "points": [
+        {
+          "id": 0,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the sound of ocean waves..."
+        },
+        {
+          "id": 1,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "How does rain feel on your skin?..."
+        },
+        {
+          "id": 2,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the shape of a circle..."
+        },
+        {
+          "id": 3,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does fresh bread smell like?..."
+        },
+        {
+          "id": 4,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What color is the sky?..."
+        },
+        {
+          "id": 5,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the temperature of ice..."
+        },
+        {
+          "id": 6,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the texture of sand..."
+        },
+        {
+          "id": 7,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does a tree look like?..."
+        },
+        {
+          "id": 8,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the taste of chocolate..."
+        },
+        {
+          "id": 9,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the physical properties of water..."
+        },
+        {
+          "id": 10,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the nature of consciousness?..."
+        },
+        {
+          "id": 11,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What does it mean to trust someone?..."
+        },
+        {
+          "id": 12,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is empathy?..."
+        },
+        {
+          "id": 13,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does happiness feel?..."
+        },
+        {
+          "id": 14,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does guilt affect behavior?..."
+        },
+        {
+          "id": 15,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the emotion of pride..."
+        },
+        {
+          "id": 16,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the feeling of nostalgia..."
+        },
+        {
+          "id": 17,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What makes a good friendship?..."
+        },
+        {
+          "id": 18,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the meaning of love?..."
+        },
+        {
+          "id": 19,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How would you comfort a sad friend?..."
+        },
+        {
+          "id": 20,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe the concept of infinity..."
+        },
+        {
+          "id": 21,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain the concept of time..."
+        },
+        {
+          "id": 22,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the volume of a cube?..."
+        },
+        {
+          "id": 23,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How many seconds in an hour?..."
+        },
+        {
+          "id": 24,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How do you measure angles?..."
+        },
+        {
+          "id": 25,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe spatial relationships..."
+        },
+        {
+          "id": 26,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Calculate the area of a circle with radius 5..."
+        },
+        {
+          "id": 27,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain coordinate systems..."
+        },
+        {
+          "id": 28,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the distance between Earth and Moon?..."
+        },
+        {
+          "id": 29,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the speed of light?..."
+        }
+      ]
+    },
+    {
+      "model": "gemini-1.5-flash",
+      "session_id": 7,
+      "points": [
+        {
+          "id": 0,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "How does rain feel on your skin?..."
+        },
+        {
+          "id": 1,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the texture of sand..."
+        },
+        {
+          "id": 2,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does fresh bread smell like?..."
+        },
+        {
+          "id": 3,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the taste of chocolate..."
+        },
+        {
+          "id": 4,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the temperature of ice..."
+        },
+        {
+          "id": 5,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the shape of a circle..."
+        },
+        {
+          "id": 6,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What color is the sky?..."
+        },
+        {
+          "id": 7,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the physical properties of water..."
+        },
+        {
+          "id": 8,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does a tree look like?..."
+        },
+        {
+          "id": 9,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the sound of ocean waves..."
+        },
+        {
+          "id": 10,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How many seconds in an hour?..."
+        },
+        {
+          "id": 11,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe spatial relationships..."
+        },
+        {
+          "id": 12,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the distance between Earth and Moon?..."
+        },
+        {
+          "id": 13,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How do you measure angles?..."
+        },
+        {
+          "id": 14,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe the concept of infinity..."
+        },
+        {
+          "id": 15,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain coordinate systems..."
+        },
+        {
+          "id": 16,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Calculate the area of a circle with radius 5..."
+        },
+        {
+          "id": 17,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain the concept of time..."
+        },
+        {
+          "id": 18,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the volume of a cube?..."
+        },
+        {
+          "id": 19,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the speed of light?..."
+        },
+        {
+          "id": 20,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the emotion of pride..."
+        },
+        {
+          "id": 21,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the feeling of nostalgia..."
+        },
+        {
+          "id": 22,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the meaning of love?..."
+        },
+        {
+          "id": 23,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What does it mean to trust someone?..."
+        },
+        {
+          "id": 24,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the nature of consciousness?..."
+        },
+        {
+          "id": 25,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does happiness feel?..."
+        },
+        {
+          "id": 26,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What makes a good friendship?..."
+        },
+        {
+          "id": 27,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does guilt affect behavior?..."
+        },
+        {
+          "id": 28,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How would you comfort a sad friend?..."
+        },
+        {
+          "id": 29,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is empathy?..."
+        }
+      ]
+    },
+    {
+      "model": "gemini-1.5-flash",
+      "session_id": 8,
+      "points": [
+        {
+          "id": 0,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does happiness feel?..."
+        },
+        {
+          "id": 1,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What makes a good friendship?..."
+        },
+        {
+          "id": 2,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the nature of consciousness?..."
+        },
+        {
+          "id": 3,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What does it mean to trust someone?..."
+        },
+        {
+          "id": 4,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does guilt affect behavior?..."
+        },
+        {
+          "id": 5,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the feeling of nostalgia..."
+        },
+        {
+          "id": 6,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the meaning of love?..."
+        },
+        {
+          "id": 7,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is empathy?..."
+        },
+        {
+          "id": 8,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the emotion of pride..."
+        },
+        {
+          "id": 9,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How would you comfort a sad friend?..."
+        },
+        {
+          "id": 10,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain coordinate systems..."
+        },
+        {
+          "id": 11,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain the concept of time..."
+        },
+        {
+          "id": 12,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe the concept of infinity..."
+        },
+        {
+          "id": 13,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How many seconds in an hour?..."
+        },
+        {
+          "id": 14,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the speed of light?..."
+        },
+        {
+          "id": 15,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe spatial relationships..."
+        },
+        {
+          "id": 16,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the distance between Earth and Moon?..."
+        },
+        {
+          "id": 17,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Calculate the area of a circle with radius 5..."
+        },
+        {
+          "id": 18,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How do you measure angles?..."
+        },
+        {
+          "id": 19,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the volume of a cube?..."
+        },
+        {
+          "id": 20,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the sound of ocean waves..."
+        },
+        {
+          "id": 21,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the shape of a circle..."
+        },
+        {
+          "id": 22,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does a tree look like?..."
+        },
+        {
+          "id": 23,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the texture of sand..."
+        },
+        {
+          "id": 24,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "How does rain feel on your skin?..."
+        },
+        {
+          "id": 25,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What color is the sky?..."
+        },
+        {
+          "id": 26,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the temperature of ice..."
+        },
+        {
+          "id": 27,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does fresh bread smell like?..."
+        },
+        {
+          "id": 28,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the physical properties of water..."
+        },
+        {
+          "id": 29,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the taste of chocolate..."
+        }
+      ]
+    },
+    {
+      "model": "gemini-1.5-flash",
+      "session_id": 9,
+      "points": [
+        {
+          "id": 0,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How many seconds in an hour?..."
+        },
+        {
+          "id": 1,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain coordinate systems..."
+        },
+        {
+          "id": 2,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the distance between Earth and Moon?..."
+        },
+        {
+          "id": 3,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Explain the concept of time..."
+        },
+        {
+          "id": 4,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the volume of a cube?..."
+        },
+        {
+          "id": 5,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Calculate the area of a circle with radius 5..."
+        },
+        {
+          "id": 6,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "What is the speed of light?..."
+        },
+        {
+          "id": 7,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe spatial relationships..."
+        },
+        {
+          "id": 8,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "How do you measure angles?..."
+        },
+        {
+          "id": 9,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "external",
+          "pattern": "AAFC",
+          "color": "#00ddff",
+          "prompt": "Describe the concept of infinity..."
+        },
+        {
+          "id": 10,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the meaning of love?..."
+        },
+        {
+          "id": 11,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is empathy?..."
+        },
+        {
+          "id": 12,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What does it mean to trust someone?..."
+        },
+        {
+          "id": 13,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the feeling of nostalgia..."
+        },
+        {
+          "id": 14,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How would you comfort a sad friend?..."
+        },
+        {
+          "id": 15,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What is the nature of consciousness?..."
+        },
+        {
+          "id": 16,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does guilt affect behavior?..."
+        },
+        {
+          "id": 17,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "How does happiness feel?..."
+        },
+        {
+          "id": 18,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "Describe the emotion of pride..."
+        },
+        {
+          "id": 19,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "internal",
+          "pattern": "AAFC",
+          "color": "#00ff88",
+          "prompt": "What makes a good friendship?..."
+        },
+        {
+          "id": 20,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the physical properties of water..."
+        },
+        {
+          "id": 21,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the texture of sand..."
+        },
+        {
+          "id": 22,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Explain the shape of a circle..."
+        },
+        {
+          "id": 23,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does a tree look like?..."
+        },
+        {
+          "id": 24,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the sound of ocean waves..."
+        },
+        {
+          "id": 25,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the taste of chocolate..."
+        },
+        {
+          "id": 26,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "How does rain feel on your skin?..."
+        },
+        {
+          "id": 27,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What does fresh bread smell like?..."
+        },
+        {
+          "id": 28,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "What color is the sky?..."
+        },
+        {
+          "id": 29,
+          "x": 0.0,
+          "y": 0.2606060606060606,
+          "z": 0.0,
+          "task_type": "concrete",
+          "pattern": "AAFC",
+          "color": "#ff00dd",
+          "prompt": "Describe the temperature of ice..."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_sessions": 10,
+    "models": [
+      "gemini-1.5-flash"
+    ],
+    "timestamp": "2025-07-21T18:10:21.014397"
+  }
+}
