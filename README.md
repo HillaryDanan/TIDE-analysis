@@ -4,6 +4,15 @@
 
 TIDE-analysis automates the detection and measurement of cognitive processing patterns in AI systems using dimensional frameworks validated in fMRI studies. This tool empirically tests how different AI models employ distinct reasoning architectures - similar to neurodiversity differences observed in human cognition.
 
+### 🔄 Part of the Complete Analysis Pipeline:
+```
+AI Responses → TIDE-analysis → Dimensional Data → Pattern Analyzer → Complete Cognitive Profile
+     ↓              ↓                   ↓                  ↓                    ↓
+Collection    14 Semantic Dims    Pattern Evolution    14+ Tools        Unified Results
+```
+
+**See also:** [Pattern Analyzer](https://github.com/HillaryDanan/pattern-analyzer) for comprehensive pattern detection across all tools.
+
 ## 🧠 Scientific Foundation
 
 Based on Hillary Danan's PhD dissertation research identifying 14 semantic features that differentiate processing patterns in autism spectrum and neurotypical populations. This framework has been adapted to measure analogous architectural differences in AI systems.
@@ -49,14 +58,20 @@ python tide_automation.py
 
 ## 🔬 Research Suite Integration
 
-This tool is part of a comprehensive AI architecture research suite:
+TIDE-analysis serves as the **automated data collection engine** for a comprehensive AI architecture research ecosystem:
 
+### The Complete Analysis Pipeline:
+1. **TIDE-analysis** (This Tool) → Automated collection & dimensional analysis
+2. **[Pattern Analyzer](https://github.com/HillaryDanan/pattern-analyzer)** → Comprehensive pattern detection using all tools
+3. **Together** → Complete AI cognitive architecture profiling
+
+### Integrated Framework Components:
 1. **[BIND](https://github.com/HillaryDanan/BIND)** - Boundary-based processing detection
 2. **[Concrete Overflow](https://github.com/HillaryDanan/concrete-overflow-detector)** - Alternative reasoning pathway identification
 3. **[TIDE Framework](https://github.com/HillaryDanan/TIDE)** - Theoretical foundation for architectural diversity
-4. **TIDE-analysis** - Automated empirical testing and validation
-5. **[TIDE-Resonance](https://github.com/HillaryDanan/TIDE-resonance)** - Central research platform integrating all frameworks
-6. **[Supporting Tools](https://github.com/HillaryDanan)** - Hexagonal processing, game theory applications, information atoms
+4. **[Pattern Analyzer](https://github.com/HillaryDanan/pattern-analyzer)** - Integrates all tools for comprehensive analysis
+5. **[TIDE-Resonance](https://github.com/HillaryDanan/TIDE-resonance)** - Central research platform & interactive demos
+6. **[Supporting Tools](https://github.com/HillaryDanan)** - 14+ specialized analysis modules
 
 ### 🌟 See It In Action
 - **[Live Research Platform](https://hillarydanan.github.io/TIDE-resonance/)** - Explore all integrated tools
@@ -93,6 +108,45 @@ TIDE-automation/
 - **Diversity Metrics**: Quantify architectural differences between models
 - **Research Validation**: Test theoretical frameworks with empirical data
 
+## 🔗 Integration with Pattern Analyzer
+
+TIDE-analysis works seamlessly with the **[Pattern Analyzer](https://github.com/HillaryDanan/pattern-analyzer)** to create a complete analysis pipeline:
+
+### How They Work Together:
+```
+1. TIDE-analysis:
+   - Collects AI responses automatically
+   - Analyzes using 14 semantic dimensions
+   - Tracks pattern evolution (CCDF → CCDR)
+   - Generates dimensional metrics
+
+2. Pattern Analyzer:
+   - Takes TIDE outputs
+   - Runs 14+ specialized tools
+   - Generates comprehensive signatures
+   - Creates unified visualizations
+
+3. Result: Complete AI Cognitive Profile
+   - Dimensional analysis (from PhD research)
+   - Neural pathway patterns
+   - Information structures
+   - Trust dynamics
+   - Architectural classifications
+```
+
+### Running Integrated Analysis:
+```bash
+# First: Collect with TIDE
+python tide_automation.py
+
+# Then: Comprehensive analysis
+cd ../pattern-analyzer
+python pattern_analyzer.py --tide-data ../TIDE-analysis/results/
+
+# View integrated results
+open integrated_portfolio_analysis.html
+```
+
 ## 📐 Technical Implementation
 
 ### Analysis Pipeline
@@ -118,11 +172,13 @@ This empirical approach bridges neuroscience and AI research:
 
 ## 🏆 Impact
 
-**Built in 1 day** as part of a 4-week research sprint producing:
-- 14 interconnected repositories
-- 256+ GitHub contributions
-- Complete empirical testing framework
-- Working demonstrations across multiple tools
+**Built in 1 day** as part of a comprehensive 4-week research program that produced:
+- 14+ interconnected repositories
+- Complete empirical framework for AI analysis
+- Multiple interactive demonstrations
+- Integrated analysis pipeline
+
+**TIDE-analysis** serves as the empirical data collection engine, while **[Pattern Analyzer](https://github.com/HillaryDanan/pattern-analyzer)** provides comprehensive pattern detection. Together, they form a complete system for understanding AI cognitive architectures.
 
 ## 🔗 Try It Yourself
 
