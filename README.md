@@ -130,3 +130,6 @@ This empirical approach bridges neuroscience and AI research:
 *"We measure what we can, acknowledge what we can't, and remain curious about the rest"*
 
 <4577 - Bridging neuroscience and AI through empirical research
+
+## 📚 Academic References
+See `references/Levinson_Dissertation_May_2021.pdf` for the foundational research.

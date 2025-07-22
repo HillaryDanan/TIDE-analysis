@@ -34,3 +34,4 @@ Thumbs.db
 # Checkpoints
 checkpoints/
 *.checkpoint# Allow sharing results
+references/*.pdf
