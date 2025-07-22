@@ -21,7 +21,7 @@ def test_anthropic():
     try:
         client = anthropic.Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
         response = client.messages.create(
-            model="claude-3-opus-20240229",
+            model="claude-3-haiku-20240307",
             max_tokens=10,
             messages=[{"role": "user", "content": "Say hello"}]
         )
@@ -45,7 +45,7 @@ def test_openai():
             from openai import OpenAI
             client = OpenAI(api_key=api_key)
             response = client.chat.completions.create(
-                model="gpt-4",
+                model="gpt-3.5-turbo",
                 max_tokens=10,
                 messages=[{"role": "user", "content": "Say hello"}]
             )
@@ -54,7 +54,7 @@ def test_openai():
             # Old version (0.x)
             openai.api_key = api_key
             response = openai.ChatCompletion.create(
-                model="gpt-4",
+                model="gpt-3.5-turbo",
                 max_tokens=10,
                 messages=[{"role": "user", "content": "Say hello"}]
             )
@@ -72,7 +72,7 @@ def test_google():
     print("\n🔍 Testing Google (Gemini) API...")
     try:
         genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
-        model = genai.GenerativeModel('gemini-pro')
+        model = genai.GenerativeModel('gemini-1.5-flash')
         response = model.generate_content("Say hello")
         print("  ✅ Gemini API working!")
         print(f"  Response: {response.text}")

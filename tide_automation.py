@@ -146,6 +146,18 @@ def run_automated_collection_week():
 
 def generate_html_report(results, analysis, timestamp):
     """Generate a beautiful HTML report"""
+    
+    # Calculate total responses
+    total_responses = sum(
+        len(r['data']['responses'].get('concrete', [])) + 
+        len(r['data']['responses'].get('internal', [])) + 
+        len(r['data']['responses'].get('external', []))
+        for r in results
+    )
+    
+    # Get unique models
+    models = list(set(r['model'] for r in results))
+    
     html = f"""
     <!DOCTYPE html>
     <html>
@@ -189,13 +201,10 @@ def generate_html_report(results, analysis, timestamp):
                 color: #00ff88;
                 font-weight: bold;
             }}
-            .pattern-signature {{
-                font-family: monospace;
-                font-size: 1.2em;
-                background: rgba(0,0,0,0.3);
-                padding: 10px;
-                border-radius: 5px;
-                margin: 10px 0;
+            .model-list {{
+                color: #00ddff;
+                font-size: 0.9em;
+                margin-top: 5px;
             }}
             img {{
                 max-width: 100%;
@@ -207,24 +216,25 @@ def generate_html_report(results, analysis, timestamp):
     <body>
         <div class="container">
             <h1>🧠 TIDE Analysis Report</h1>
-            <h2>Based on Hillary's Dissertation Framework</h2>
+            <h2>Empirical AI Cognitive Architecture Analysis</h2>
             
             <div class="stat-grid">
                 <div class="stat-card">
-                    <div class="stat-number">{len(results)}</div>
-                    <div>Total Sessions</div>
+                    <div class="stat-number">{total_responses}</div>
+                    <div>Total Responses Analyzed</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">{len(set(r['model'] for r in results))}</div>
-                    <div>Models Tested</div>
+                    <div class="stat-number">{len(results)}</div>
+                    <div>Sessions Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">{len(models)}</div>
+                    <div>AI Models Tested</div>
+                    <div class="model-list">{', '.join(models)}</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">{analysis.get('avg_pattern_coherence', 0):.1%}</div>
                     <div>Avg Pattern Coherence</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">{analysis.get('dimensional_shift_magnitude', 0):.2f}</div>
-                    <div>Dimensional Shift Magnitude</div>
                 </div>
             </div>
             
@@ -233,17 +243,39 @@ def generate_html_report(results, analysis, timestamp):
                 <li>Pattern Evolution: {analysis.get('pattern_evolution', 'CCDF → CCDR')}</li>
                 <li>Dominant Processing Mode: {analysis.get('dominant_mode', 'Unknown')}</li>
                 <li>Internal/External Balance: {analysis.get('ie_balance', 'Unknown')}</li>
+                <li>Dimensional Shift Magnitude: {analysis.get('dimensional_shift_magnitude', 0):.3f}</li>
             </ul>
+            
+            <h2>🏆 Model Rankings by Coherence</h2>
+            <ol>
+    """
+    
+    # Add model rankings
+    model_stats = analysis.get('model_comparisons', {})
+    sorted_models = sorted(model_stats.items(), 
+                          key=lambda x: x[1].get('avg_coherence', 0), 
+                          reverse=True)
+    
+    for model, stats in sorted_models:
+        html += f"""
+                <li><strong>{model}</strong>: {stats.get('avg_coherence', 0):.1%} coherence, 
+                    {stats.get('avg_diversity', 0):.1f} pattern diversity</li>
+        """
+    
+    html += """
+            </ol>
             
             <h2>📈 Visualizations</h2>
             <img src="visualizations/dimensional_shifts.png" alt="Dimensional Shifts">
             <img src="visualizations/pattern_evolution.png" alt="Pattern Evolution">
             <img src="visualizations/feature_trajectories.png" alt="Feature Trajectories">
+            <img src="visualizations/model_comparisons.png" alt="Model Comparisons">
             
             <h2>🔬 Technical Details</h2>
             <p>Generated: {timestamp}</p>
             <p>Framework: TIDE (Temporal Internal Dimension Exploration)</p>
-            <p>Based on: Dissertation semantic dimensions (Internal/External/Concrete)</p>
+            <p>Based on: PhD dissertation semantic dimensions (Internal/External/Concrete)</p>
+            <p>Testing: How different AI models develop distinct cognitive architectures</p>
             
             <div style="text-align: center; margin-top: 50px;">
                 <p style="font-size: 2em;"><4577! 💕✨</p>

@@ -159,7 +159,7 @@ class TIDECollector:
         """Query Claude model"""
         try:
             response = self.anthropic_client.messages.create(
-                model="claude-3-opus-20240229",
+                model="claude-3-haiku-20240307",
                 max_tokens=500,
                 messages=[
                     {"role": "user", "content": prompt}
@@ -176,7 +176,7 @@ class TIDECollector:
                 # For newest OpenAI library (v1.x)
                 client = OpenAI(api_key=self.openai_api_key)
                 response = client.chat.completions.create(
-                    model="gpt-4",
+                    model="gpt-3.5-turbo",
                     max_tokens=500,
                     messages=[
                         {"role": "user", "content": prompt}
@@ -187,7 +187,7 @@ class TIDECollector:
                 # For older OpenAI library versions
                 openai.api_key = self.openai_api_key
                 response = openai.ChatCompletion.create(
-                    model="gpt-4",
+                    model="gpt-3.5-turbo",
                     max_tokens=500,
                     messages=[
                         {"role": "user", "content": prompt}

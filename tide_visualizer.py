@@ -244,7 +244,7 @@ class TIDEVisualizer:
                         'task_type': task_type,
                         'pattern': resp['pattern'],
                         'color': self.colors[task_type],
-                        'prompt': resp['prompt'][:50] + '...'  # Truncate for display
+                        'prompt': resp['prompt']# Show full prompt
                     }
                     
                     session_3d['points'].append(point)
