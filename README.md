@@ -127,6 +127,25 @@ This empirical approach bridges neuroscience and AI research:
 
 ---
 
+## 🧠 TIDE Analysis Visualizations
+
+### Overview
+Automated analysis of AI consciousness patterns using 14 semantic dimensions from neuroscience research.
+
+### Animated Pattern Evolution
+![TIDE Pattern Evolution](docs/visualizations/tide_optimized.gif)
+
+### Multi-Angle Analysis Summary
+![TIDE Summary](docs/visualizations/tide_summary.png)
+
+### Key Findings
+- **Pattern Coherence:** 74.5% across 10 sessions
+- **Dominant Pattern:** AAFC
+- **Model Analyzed:** Gemini 1.5 Flash
+- **Development Time:** Built in 1 day!
+
+Built with love 💕✨
+
 *"We measure what we can, acknowledge what we can't, and remain curious about the rest"*
 
 <4577 - Bridging neuroscience and AI through empirical research
