@@ -55,7 +55,14 @@ This tool is part of a comprehensive AI architecture research suite:
 2. **[Concrete Overflow](https://github.com/HillaryDanan/concrete-overflow-detector)** - Alternative reasoning pathway identification
 3. **[TIDE Framework](https://github.com/HillaryDanan/TIDE)** - Theoretical foundation for architectural diversity
 4. **TIDE-analysis** - Automated empirical testing and validation
-5. **[Supporting Tools](https://github.com/HillaryDanan)** - Hexagonal processing, game theory applications, information atoms
+5. **[TIDE-Resonance](https://github.com/HillaryDanan/TIDE-resonance)** - Central research platform integrating all frameworks
+6. **[Supporting Tools](https://github.com/HillaryDanan)** - Hexagonal processing, game theory applications, information atoms
+
+### 🌟 See It In Action
+- **[Live Research Platform](https://hillarydanan.github.io/TIDE-resonance/)** - Explore all integrated tools
+- **[AI Perception Study](https://hillarydanan.github.io/TIDE-resonance/collect.html)** - Contribute to ongoing research
+- **[3D Pattern Explorer](https://hillarydanan.github.io/TIDE-resonance/advanced_explorer.html)** - Visualize processing patterns
+- **[Interactive Results](https://hillarydanan.github.io/TIDE-resonance/portfolio_showcase.html)** - View emerging findings
 
 ## 📁 Project Structure
 
@@ -122,6 +129,8 @@ This empirical approach bridges neuroscience and AI research:
 **Interactive Demo**: [AI Perception Study](https://hillarydanan.github.io/TIDE-resonance/collect.html)
 
 **Full Research Suite**: [github.com/HillaryDanan](https://github.com/HillaryDanan)
+
+**Portfolio Overview**: [Research Portfolio](https://hillarydanan.github.io/TIDE-resonance/pitch.html)
 
 **Professional Background**: [Resume](https://hillarydanan.github.io/TIDE-resonance/resume.html)
 
